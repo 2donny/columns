@@ -1,0 +1,6 @@
+p {
+  text-align: justify; //모든 글꼴을 monospace이기 때문에 양쪽 공백을 똑같이 만든 상태에서 텍스트를 나열한다.
+  columns: 150px 3; //column은 단축속성이다. 이걸 풀어쓰면 => column-width: 150px; column-count: 3;
+  column-gap: 20px; // 단과 단 사이의 gap을 설정.
+  column-rule: 4px solid lightgray; //경계선의 스타일을 지정한다. 
+}
